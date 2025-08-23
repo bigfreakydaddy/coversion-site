@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    background-color: #FFFFFF;
+    justify-items:center ;
+    font-family:  "Inter", sans-serif;
+    font-weight:bolder;
+    color: #ffffff;   
+}
+
+.input-field{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    background-color: #6943FF;
+    padding-bottom: 20PX;    
+}
+
+.input-field > div {
+    text-align: center;
+    margin: 0;
+}
+
+.conversion-field{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    background-color: #F4F4F4;
+    padding-bottom: 20PX;
+       
+}
+.conversion-field > div {
+    text-align: center;
+    margin: .5rem 1rem;
+    border-radius: 5px 0 0 0;
+    background-color: #ffffff;
+}
+
+.measurement-type{
+    color: #5A537B;
+}
+.conversion-statement{
+    color: #353535;
+    font-size: x-small;
+    font-weight: 400;
+}
+
+#amount-input{
+    margin-bottom: 10px;
+    width: 20%;
+    background-color: #6943FF;
+    border: 1px, solid, #B295FF;
+    border-radius: 5px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: xx-large;
+}
+
+button{
+    font-size: small;
+    background-color: #FFFFFF;
+    border: 0px, solid, purple;
+    border-radius: 5px;
+    padding: 2% 5%;
+    color: #3D3D3D;    
+}
+
+.conversion-section{
+    width:max-content;  
+    /* background-color: #FFFFFF; */
+}
+
+.conversion-type-header{
+    color: #5A537B;
+    max-width: 250px;  
+}
+
+.conversion-border{
+    border: 0px solid #353535;
+}
+
+
+/* For Chrome, Safari, Edge, and Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0; /* Important to remove default margin in some older versions */
+}
+
+/* For Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
